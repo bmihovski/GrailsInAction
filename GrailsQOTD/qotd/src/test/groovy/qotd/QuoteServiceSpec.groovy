@@ -1,18 +1,19 @@
 package qotd
 
+import grails.testing.gorm.DataTest
 import grails.testing.services.ServiceUnitTest
 import spock.lang.Specification
 
-class QuoteServiceSpec extends Specification implements ServiceUnitTest<QuoteService>{
 
-    def setup() {
-    }
+class QuoteServiceSpec extends Specification implements ServiceUnitTest<QuoteService>, DataTest {
 
-    def cleanup() {
-    }
+    void "when static quote service then always returns quiche quote"() {
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+		when:
+		Quote staticQuote = service.getStaticQuote()
+		
+		then:
+		staticQuote.author == "Anonymous"
+		staticQuote.content == "Real Programmers Don't eat much Quich"
     }
 }
