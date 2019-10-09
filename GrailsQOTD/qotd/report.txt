@@ -1,0 +1,13 @@
+Quote Report
+------------
+
+Total: 18
+
+Number of quotes by author:
+
+ Larry Wall          Larry Wall          1
+ Chuck Norris Facts  Chuck Norris Facts  1
+ Eric Raymond        Eric Raymond        1
+ Boyan               Boyan               1
+ Peter Ledbrook      Peter Ledbrook      7
+ Glen Smith          Glen Smith          7

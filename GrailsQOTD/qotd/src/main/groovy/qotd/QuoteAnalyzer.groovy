@@ -6,7 +6,7 @@ class QuoteAnalyzer {
 	private final List<Quote> quotes
 	
 	
-	QuoteAnalyzer(List<Qoute> quotes) {
+	QuoteAnalyzer(List<Quote> quotes) {
 		this.quotes = new ArrayList(quotes)
 	}
 	

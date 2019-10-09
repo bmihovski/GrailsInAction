@@ -21,7 +21,7 @@ Total: ${analyzer.quoteCount}
 
 Number of quotes by author:
 """
-    for (entry in analyzer.QuoteCountPerAuthor) {
+    for (entry in analyzer.quoteCountPerAuthor) {
         w.println " " + entry.key.padRight(20) + entry.key.padRight(20) + entry.value
        }
      }
